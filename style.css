@@ -1,0 +1,196 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    top: -14px;
+}
+
+
+header{
+    
+    height: 348px;
+    background: url("../img/baner.png") no-repeat;
+    background-size: 100%;
+    background-position: 0 -60px;
+    margin: -1px -22px;
+    background-position: center;
+}
+
+.menu ul {
+  list-style-type: none;
+  position:absolute;
+  right: 50px;
+  margin-top: 40px;
+}
+
+
+.menu li      {
+  float:left;
+  border-right: 2px solid rgb(0, 0, 0);
+  padding: 0 10px;  
+}
+
+.menu li a{
+  text-decoration:none;
+  color:rgb(0, 0, 0);font: 30px/1 helvetica, sans serif;  
+}
+
+.menu li a:hover{
+  font-weight: bold;
+  color:rgb(49, 129, 25);
+}
+
+h3 {
+  font-family: 'Fredericka the Great', cursive;
+  color:#784004bb;
+  font-size: 40px;
+  margin:70px;
+  position: relative;
+  left: 188px;
+  top: 4px;
+}
+
+section {    
+  position: relative; 
+  display:flex; 
+  text-align:center;
+  text-align: justify;
+       
+}
+
+.font{
+  font-size: 21px;
+  margin-left: 100px;
+  top: 10px;
+}
+
+.container{
+  display: flex;
+}
+
+
+.texto{
+  width: 40%;
+  position: relative;
+  left: 20px;
+}
+
+.planta{
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.planta img{
+  width: 440px;
+  position: relative;
+  right: 9px;
+  top: 50px;
+}
+
+
+.imagemlal {
+    height: 100px;
+    display: flex;
+    margin-top: 60px;
+    justify-content: center; 
+    padding: 0;
+    box-sizing: border-box;
+    top: -54  px; 
+}
+
+.texto2{
+    display:flex;
+    justify-content: space-around;
+    width: 95%;
+    margin-top: 26px;
+    flex-direction: row-reverse
+    
+}
+
+footer {
+    
+    width: 100%;  
+    background-color: rgba(134, 133, 96, 0.881);
+    margin-top:320px;
+    height: 150px;
+}
+
+.rodape{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  color: white;
+}
+
+.marcas{
+  width: 33.3%;
+
+}
+
+.projetos{
+  width: 33.3%;
+  
+}
+
+.contatos{
+  width: 33.3%;
+  display: flex;
+  justify-content: center;
+   
+}
+
+.vrvr{
+  font-family: 'Fredericka the Great', cursive;
+  color: white;
+  font-size: 50px;
+  margin-left: 31px;
+}
+
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top:10px;
+}
+
+
+html .section {
+  scroll-behavior: smooth;
+  scroll-padding-top:10px;
+
+}
+
+#exemplo{
+  width: 50%;
+  top: 10px;
+}
+
+.contatos li{
+  list-style-type: none;
+  padding: 0 8px;
+  
+}
+ 
+.contatos span{
+  margin-left: 5px;
+  font-size: 40px;
+}
+
+.contatos li a{
+  text-decoration: none;
+  color:white;
+  font-size: 40px;
+  
+}
+
+.contatos ul{
+  display: flex;
+  
+}
+
+.video{
+  display: flex;
+  height: 316px;
+  justify-content: space-around;
+  margin-top: 200px; 
+}
